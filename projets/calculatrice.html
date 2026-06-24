@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculatrice Scientifique</title>
+
+<link rel="stylesheet" href="calculatrice.css">
+
+</head>
+
+<body>
+
+<div class="calculatrice">
+
+<h1>Calculatrice Scientifique</h1>
+
+<input
+type="text"
+id="ecran"
+readonly
+placeholder="0"
+>
+
+<div class="boutons">
+
+<button onclick="effacer()">C</button>
+<button onclick="retour()">⌫</button>
+<button onclick="ajouter('(')">(</button>
+<button onclick="ajouter(')')">)</button>
+
+<button onclick="ajouter('7')">7</button>
+<button onclick="ajouter('8')">8</button>
+<button onclick="ajouter('9')">9</button>
+<button onclick="ajouter('/')">÷</button>
+
+<button onclick="ajouter('4')">4</button>
+<button onclick="ajouter('5')">5</button>
+<button onclick="ajouter('6')">6</button>
+<button onclick="ajouter('*')">×</button>
+
+<button onclick="ajouter('1')">1</button>
+<button onclick="ajouter('2')">2</button>
+<button onclick="ajouter('3')">3</button>
+<button onclick="ajouter('-')">−</button>
+
+<button onclick="ajouter('0')">0</button>
+<button onclick="ajouter('.')">.</button>
+<button onclick="calculer()">=</button>
+<button onclick="ajouter('+')">+</button>
+
+<button onclick="racine()">√</button>
+<button onclick="carre()">x²</button>
+<button onclick="puissance()">x^y</button>
+<button onclick="pourcentage()">%</button>
+
+<button onclick="sin()">sin</button>
+<button onclick="cos()">cos</button>
+<button onclick="tan()">tan</button>
+<button onclick="pi()">π</button>
+
+<button onclick="log()">log</button>
+<button onclick="ln()">ln</button>
+<button onclick="factorielle()">!</button>
+
+</div>
+
+<br>
+
+<a href="../index.html">
+Retour au portfolio
+</a>
+
+</div>
+
+<script src="calculatrice.js"></script>
+
+</body>
+</html>

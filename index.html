@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio de Nihorimbere</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+<h2>Jesmay Portfolio</h2>
+
+<ul>
+<li><a href="#accueil">Accueil</a></li>
+<li><a href="#apropos">À propos</a></li>
+<li><a href="#competences">Compétences</a></li>
+<li><a href="#projets">Projets</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<header id="accueil">
+
+<h1>Bonjour, je suis Nihorimbere</h1>
+
+<p>Développeur web en apprentissage</p>
+
+<div id="heure"></div>
+
+<button onclick="messageParents()">
+Message spécial
+</button>
+
+<button onclick="changerMode()">
+Mode sombre / clair
+</button>
+
+</header>
+
+<section id="apropos">
+
+<h2>À propos de moi</h2>
+
+<img src="images/photo.jpg" class="photo">
+
+<p>
+Je suis passionné par la programmation et je veux créer
+des projets utiles.
+Mon objectif est d'apprendre davantage et devenir
+un très bon développeur.
+</p>
+
+</section>
+
+<section id="competences">
+
+<h2>Mes compétences</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="icones/html.png">
+<h3>HTML</h3>
+<div class="progress">
+<div class="html"></div>
+</div>
+</div>
+
+<div class="card">
+<img src="icones/css.png">
+<h3>CSS</h3>
+<div class="progress">
+<div class="css"></div>
+</div>
+</div>
+
+<div class="card">
+<img src="icones/javascript.png">
+<h3>JavaScript</h3>
+<div class="progress">
+<div class="javascript"></div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="projets">
+
+<h2>Mes projets</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="images/projet1.jpg">
+<h3>Calculatrice</h3>
+<p>Une calculatrice créée avec JavaScript</p>
+<a href="projets/calculatrice.html">Voir projet</a>
+</div>
+
+<div class="card">
+<img src="images/projet2.jpg">
+<h3>Jeu JavaScript</h3>
+<p>Jeu Serpent</p>
+<a href="projets/jeu.html">Voir le jeu Snake</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<input type="text" placeholder="Nom">
+<input type="email" placeholder="Email">
+<textarea placeholder="Votre message"></textarea>
+
+<button onclick="envoyer()">
+Envoyer
+</button>
+<h2>ou suive nous nous sur: </h2>
+
+<ul>
+    <li> <a href="#" target="_blank"><i class="fa-brands fa-facebook">
+
+    </i> Facebook</a> </li>
+     <li> <a href="#">Youtub</a> </li>
+     <li> <a href="#">Instagram</a>
+     </li>
+</ul>
+
+</section>
+
+<footer>
+
+<p>
+Créé par Nihorimbere © 2026
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
